@@ -8,8 +8,8 @@
   "buildDir": "",
   "minNum": 0,
   "maxNum": 5,
-  "cpu": 1,
-  "mem": 2,
+  "cpu": 0.25,
+  "mem": 0.5,
   "policyType": "cpu",
   "policyThreshold": 80,
   "policyDetails": [
@@ -24,10 +24,5 @@
   ],
   "envParams": {},
   "customLogs": "stdout",
-  "initialDelaySeconds": 2,
-  "dataBaseName": "nodejs_demo",
-  "executeSQLs": [
-    "CREATE DATABASE IF NOT EXISTS nodejs_demo;",
-    "USE nodejs_demo;"
-  ]
+  "initialDelaySeconds": 2
 }
